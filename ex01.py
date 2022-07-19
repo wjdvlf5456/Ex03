@@ -1,12 +1,14 @@
-no = 3
-#no = 4
+print("숫자를 입력해 주세요")
 
-#if문 사용시 들여쓰기 없으면 오류 (맨 앞줄만)
-if 3 == no :
-    print("정답")
-    print("축하합니다.")
-else :
-    print("오답")
-    print("다시 도전하세요")
+num = input("숫자: ") #input == 자바의 스캐너
+#print(num, type(num))
 
-print("종료")
+num = int(num)
+#print(num,type(num))
+
+if num > 0 :
+    print("양수")
+elif num < 0:
+    print("음수")
+else:
+    print("0입니다.")
