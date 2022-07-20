@@ -21,7 +21,15 @@ def sum_many(*data):
 print(sum_many(1,2,3,4,5,6,7,8))
 print("=======================================")
 def sum_mul(mode):
+    args = (1,2,3)
 
+    print(mode)
+    #더하기
+    result = 0
+    for i in args:
+        result = result +i
 
-print(sum_mul("sum",1,2,3))#더하기
+    return result
+
+print(sum_mul("sum"))#더하기
 
